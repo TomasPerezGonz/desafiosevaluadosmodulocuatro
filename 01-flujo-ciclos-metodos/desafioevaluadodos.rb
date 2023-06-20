@@ -19,3 +19,14 @@ while n <= 20
   print ("#{n}, ") if n.odd?
   n += 1
 end
+
+#Tabla de multiplicar del 9
+puts "\nLa tabla del 9 es: "
+#Se define variable i como 0
+i=0
+#Se toma 10 veces la variable i imprimiendo el mensaje sumando cada vez 1 a i
+10.times do |i|
+    puts ("#{9} * #{i} = #{9 * i}")
+  i += 1
+
+end
