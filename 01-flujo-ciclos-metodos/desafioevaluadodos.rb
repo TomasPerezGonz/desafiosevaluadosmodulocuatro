@@ -24,9 +24,9 @@ end
 puts "\nLa tabla del 9 es: "
 #Se define variable i como 0
 i=0
-#Se toma 10 veces la variable i imprimiendo el mensaje sumando cada vez 1 a i
+#Se toma 10 veces la variable i imprimiendo el mensaje por cada valor de i i
 10.times do |i|
     puts ("#{9} * #{i} = #{9 * i}")
-  i += 1
+  
 
 end
