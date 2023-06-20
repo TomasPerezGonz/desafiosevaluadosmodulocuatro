@@ -5,8 +5,12 @@ i = 0
 puts "Los numeros pares entre 0 y 20 son: "
 
 # Se realiza el ciclo while condicionando con .even? si es par
-while i <= 20
-  print ("#{i}, ") if i.even?
+while i < 20
+# Se realiza el ciclo until condicionando a que el codigo continúe una vez i sea mayor a 0
+  until i > 0
+    i+= 1
+  end
+  print ("#{i}, ") if i.even? 
   i += 1
   end
 
