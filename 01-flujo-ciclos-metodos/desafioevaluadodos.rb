@@ -27,6 +27,14 @@ i=0
 #Se toma 10 veces la variable i imprimiendo el mensaje por cada valor de i i
 10.times do |i|
     puts ("#{9} * #{i} = #{9 * i}")
-  
-
 end
+
+#Triangulo con *
+puts "\nTiangulo de 10 asteriscos: "
+n = 10
+
+n.times do |i|
+  espacios = " " * (n - i - 1)
+  asteriscos = "*" * (2 * i + 1)
+  puts espacios + asteriscos
+  end
