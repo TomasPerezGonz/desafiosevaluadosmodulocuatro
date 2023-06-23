@@ -1,5 +1,3 @@
-
-
 #Se solicita ingresar mediante metodo puts el salario del trabajador
 puts "Ingrese el salario actual del trabajador: "
 #Se crea variable sal que pide al usuario el salario actual y lo transforma en integer
@@ -9,10 +7,11 @@ puts "Ingrese el porcentaje de aumento: "
 #Se crea variable aum que pide al usuario el porcentaje de aumento y lo transforma en float
 aum = gets.chomp.to_f
 
-while aum < 5
-  puts "El porcentaje minimo de aumento salarial es del 5%, porfavor ingresa un porcentaje valido: "
+while aum < 5.0
+  puts "El porcentaje minimo de aumento es de 5%, porfavor ingresa un porcentaje valido:"
   aum = gets.chomp.to_f
 end
+
 #Se crea metodo para realizar el calculo de nuevo salario con 2 variables
 
 def nuevoSalario(x, y)
